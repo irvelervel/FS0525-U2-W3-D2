@@ -1,0 +1,16 @@
+{
+    "name": "Villa Sorriso",
+    "numberOfFloors": 3,
+    "neighbors": [
+        {
+            "surname": "Rossi",
+            "age": 72,
+            "visits": true
+        },
+        {
+            "surname": "Bianchi",
+            "age": 71,
+            "visits": false
+        }
+    ]
+}
