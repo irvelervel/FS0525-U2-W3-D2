@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Notepad in JS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-secondary-subtle">
+    <header>
+      <h1 class="text-center my-3">Blocco Note</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col col-12 col-md-8 col-lg-6">
+            <textarea class="form-control" id="content" rows="15"></textarea>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="col col-12 text-center">
+            <button type="button" id="save" class="btn btn-success">
+              SALVA
+            </button>
+            <button type="button" id="load" class="btn btn-info">CARICA</button>
+            <button type="button" id="reset" class="btn btn-warning">
+              RESET
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./notepad.js"></script>
+  </body>
+</html>
